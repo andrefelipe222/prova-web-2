@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #111827; /* cinza escuro */
+  border-bottom: 1px solid #1f2937;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+  color: #facc15; /* amarelo */
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.nav a:hover {
+  background: #1f2937;
+}
+
+.active {
+  background: #2563eb; /* azul */
+  color: #fff;
+}

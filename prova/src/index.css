@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+:root {
+  --primary: #3b82f6;
+  --dark: #0f172a;
+  --light: #f8fafc;
+}
+body { font-family: Arial, sans-serif; background: var(--light); }
+.appLayout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
